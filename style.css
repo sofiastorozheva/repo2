@@ -1,0 +1,230 @@
+@font-face{
+    font-family: 'Montserrat';
+    src:url('../fonts/Montserrat.ttf');
+}
+@font-face{
+    font-family: 'Poppins-Bold';
+    src:url('../fonts/Poppins-Bold.ttf');
+}
+@font-face{
+    font-family: 'Poppins-SemiBold';
+    src:url('../fonts/Poppins-SemiBold.ttf');
+}
+@font-face{
+    font-family: 'Roboto';
+    src:url('../fonts/Roboto.ttf');
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+.wrapper{
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.links{
+    display: flex;
+    column-gap: 94px;
+}
+.links a{
+    color: black;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+}
+.links a:hover{
+    color: #FA4A0C;
+}
+header > article{
+    background-image: url("../img/header.jpg");
+    width: 100%;
+    padding: 73px 0 220px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header > article > h3{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 7px;
+    color: white;
+}
+h1{
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 80px;
+    text-align: center;
+    padding: 0 250px;
+    margin-bottom: 17px;
+}
+header article > p{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    color: white;
+}
+header > nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 40px 28px 70px;
+    column-gap: 504px;
+}
+.button{
+    display: flex;
+    column-gap: 34px;
+    z-index: 2;
+}
+.button > button{
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    margin-bottom: 54px;
+    background: transparent;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    padding: 16px 59px;
+    cursor: pointer;
+    transition: 0.05s;
+}
+.button > button:hover{
+    background: #FA4A0C;
+    border: 1px solid #FA4A0C;
+    transform: translateY(-0.2em);
+}
+.app-work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.app-work > img{
+    margin-top: -350px;
+}
+.line{
+    width: 884px;
+    color: #e4e4e4;
+    height: 3px;
+    border: none;
+    border-bottom: 3px solid;
+    margin-bottom: 72px;
+}
+.app-work > h2{
+    font-family: Poppins-SemiBold;
+    font-size: 44px;
+    line-height: 36px;
+    margin-bottom: 59px;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section > article{
+    width: 568px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+    text-align: left;
+}
+article > h3{
+    color: #FA4A0C;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+}
+article > h2{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 57px;
+    color: #252B42;
+}
+article > p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #737373;
+}
+.section{
+    margin-bottom: -130px;
+}
+.section > article > h3{
+    margin-left: 0;
+}
+.download {
+    text-align: center;
+    background: url("../img/footer.jpg");
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    background-size: cover;
+    padding: 130px 0;
+}
+.download h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    align-items: center;
+}
+.download p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.download-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 16px;
+}
+.download-button > button {
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin-top: 40px;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    padding: 18px 45px;
+    cursor: pointer;
+    transition: 0.05s;
+}
+.download-button > button:hover{
+    background: #FA4A0C;
+    border: 1px solid #FA4A0C;
+    transform: translateY(-0.2em);
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 38px 0 53px 0;
+}
+footer > img{
+    padding-right: 222px;
+}
+footer > p{
+    font-size: 12px;
+    font-weight: 700;
+    font-family: Roboto;
+    padding-left: 286px;
+    color: #5C5C5C;
+}

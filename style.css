@@ -12,7 +12,7 @@
 }
 @font-face{
     font-family: 'Roboto';
-    src:url('fonts/Roboto.ttf') format('woff');
+    src:url('fonts/Roboto.ttf');
 }
 *{
     margin: 0 auto;

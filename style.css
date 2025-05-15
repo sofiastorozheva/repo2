@@ -41,7 +41,7 @@
     color: #FA4A0C;
 }
 header > article{
-    background-image: url("/img/header.jpg");
+    background-image: url("./img/header.jpg");
     width: 100%;
     padding: 73px 0 220px 0;
     display: flex;
@@ -163,7 +163,7 @@ article > p{
 }
 .download {
     text-align: center;
-    background: url("../img/footer.jpg");
+    background: url("./img/footer.jpg");
     width: 100%;
     display: flex;
     flex-direction: column;

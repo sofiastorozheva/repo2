@@ -41,7 +41,7 @@
     color: #FA4A0C;
 }
 header > article{
-    background-image: url("../img/header.jpg");
+    background-image: url("/img/header.jpg");
     width: 100%;
     padding: 73px 0 220px 0;
     display: flex;
